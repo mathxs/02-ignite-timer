@@ -12,7 +12,7 @@ import {
   TaskInput,
 } from './styles'
 import { useEffect, useState } from 'react'
-import { differenceInSeconds, interval, set } from 'date-fns'
+import { differenceInSeconds } from 'date-fns'
 
 const newCycleFormValidationSchema = zod.object({
   task: zod.string().min(1, 'Informe a Tarefa'),
