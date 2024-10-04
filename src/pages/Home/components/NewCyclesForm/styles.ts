@@ -1,4 +1,4 @@
-import styled from 'styled-components/dist/constructors/styled'
+import { styled } from 'styled-components'
 
 export const FormContainer = styled.div`
   width: 100%;
